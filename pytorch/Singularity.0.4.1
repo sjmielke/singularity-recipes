@@ -5,6 +5,7 @@ From: marcc-hpc/pytorch
   # Downgrade pytorch
   /opt/conda/bin/pip install torch==0.4.1
   # Reinstall most current tensorbaordX, something magic about pip...
+  /opt/conda/bin/conda uninstall tensorboardx
   /opt/conda/bin/pip install -U tensorboardx
   /opt/conda/bin/pip uninstall tensorboardx
-  /opt/conda/bin/conda install -f -c conda-forge tensorboardx
+  /opt/conda/bin/conda install -c conda-forge tensorboardx
